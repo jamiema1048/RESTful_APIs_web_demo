@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Student Edited</h1>
+    <table>
+      <tr>
+        <td>學號</td>
+        <td><%= newData.studentID %></td>
+      </tr>
+      <tr>
+        <td>名字</td>
+        <td><%= newData.name %></td>
+      </tr>
+      <tr>
+        <td>年紀</td>
+        <td><%= newData.age %></td>
+      </tr>
+      <tr>
+        <td>Merit獎學金</td>
+        <td><%= newData.scholarship.merit %></td>
+      </tr>
+      <tr>
+        <td>Other獎學金</td>
+        <td><%= newData.scholarship.other %></td>
+      </tr>
+    </table>
+    <a href="/students">回到首頁</a>
+  </body>
+</html>

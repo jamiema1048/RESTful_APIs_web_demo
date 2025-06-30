@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table,
+      tr,
+      td {
+        border: 1px, solid, black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Student Saved</h1>
+    <table>
+      <tr>
+        <td>學號</td>
+        <td><%= savedStudent.studentID %></td>
+      </tr>
+      <tr>
+        <td>名字</td>
+        <td><%= savedStudent.name %></td>
+      </tr>
+      <tr>
+        <td>年紀</td>
+        <td><%= savedStudent.age %></td>
+      </tr>
+      <tr>
+        <td>Merit獎學金</td>
+        <td><%= savedStudent.scholarship.merit %></td>
+      </tr>
+      <tr>
+        <td>Other獎學金</td>
+        <td><%= savedStudent.scholarship.other %></td>
+      </tr>
+    </table>
+    <a href="/students">回到首頁</a>
+  </body>
+</html>
