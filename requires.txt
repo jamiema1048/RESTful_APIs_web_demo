@@ -1,1 +1,1 @@
-express ejs mongoose method-override
+express ejs mongoose method-override typescript ts-node @types/node @types/express @types/mongodb @types/mongoose @types/method-override

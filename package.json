@@ -14,5 +14,14 @@
     "express": "^5.1.0",
     "method-override": "^3.0.0",
     "mongoose": "^8.15.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/method-override": "^3.0.0",
+    "@types/mongodb": "^4.0.7",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^24.0.15",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
   }
 }
